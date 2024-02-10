@@ -12,7 +12,7 @@ const Collspan = () => {
             <p className="">+</p>
           </div>
             <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-              collspanOpen ? 'grid-row-[1fr] opacity-100' : 'grid-row-[0fr] opacity-0'
+              collspanOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
             }`}>          
               <div className="overflow-hidden	 pt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nemo soluta eum iste itaque iusto, natus odio incidunt quibusdam ratione deleniti consequuntur, omnis non, delectus enim vitae velit magni maiores.
