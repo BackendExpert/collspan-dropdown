@@ -1,4 +1,4 @@
-import Collspan from "./assets/collspan/Collspan"
+import Collspan from "./collspan/Collspan"
 
 export default function App() {
   return (
