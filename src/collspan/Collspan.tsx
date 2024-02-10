@@ -1,3 +1,4 @@
+import IonIcon from "@reacticons/ionicons";
 import { useState } from "react"
 
 const Collspan = () => {
@@ -10,11 +11,12 @@ const Collspan = () => {
           <div className="flex justify-between w-full font-semibold" onClick={() => SetCollspan(!collspanOpen)}>
             <p className="">This is title</p>
             <p className="">+</p>
+
           </div>
             <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-              collspanOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+              collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
             }`}>          
-              <div className="overflow-hidden	 pt-4">
+              <div className="overflow-hidden">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nemo soluta eum iste itaque iusto, natus odio incidunt quibusdam ratione deleniti consequuntur, omnis non, delectus enim vitae velit magni maiores.
                 Aspernatur in omnis aut rem accusamus quibusdam repellat excepturi beatae id minima, incidunt, voluptates eaque nesciunt, nulla vel ducimus modi? Iste rem sint dignissimos praesentium provident modi veritatis, pariatur perferendis?
                 Hic ipsam voluptatum ullam molestias. Doloremque cumque, nisi, id unde temporibus odio sed minus, molestiae quasi aperiam dicta. Magni reiciendis vero soluta, blanditiis tenetur ipsam facilis quidem commodi eum deleniti?
