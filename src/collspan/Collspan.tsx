@@ -10,7 +10,9 @@ const Collspan = () => {
         <div className="bg-white text-xl px-12 py-8 rounded">
           <div className="flex justify-between w-full font-semibold" onClick={() => SetCollspan(!collspanOpen)}>
             <p className="">This is title</p>
-            <p className="">+</p>
+            <p className="pt-[3px]">
+              <IonIcon name={collspanOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+            </p>
 
           </div>
             <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
