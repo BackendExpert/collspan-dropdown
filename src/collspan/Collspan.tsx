@@ -1,6 +1,8 @@
 const Collspan = () => {
   return (
-    <div>Collspan</div>
+    <div className="container mx-auto px-10">
+      Collspan
+    </div>
   )
 }
 
