@@ -11,7 +11,7 @@ const Collspan = () => {
             <p className="">This is title</p>
             <p className="">+</p>
           </div>
-            <div className="">
+            <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 ${}`}>
               <div className="pt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ab, quod ipsam aliquid laboriosam maxime, earum ad numquam dicta doloribus vero doloremque culpa error quas aperiam illum velit, possimus dolorum!
               Consectetur, eum ipsum laudantium architecto laborum officiis dicta enim omnis consequuntur fugit quae exercitationem nulla veritatis velit hic adipisci. Omnis hic aspernatur nesciunt? Eos voluptatum repellendus omnis sapiente? Numquam, unde.</div>
             </div>
