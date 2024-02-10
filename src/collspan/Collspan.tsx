@@ -39,7 +39,7 @@ const Collspan = () => {
 
           </div>
             <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-              collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+              collspanOpentow ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
             }`}>          
               <div className="overflow-hidden">
                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint similique exercitationem quos, animi minus cum odit laboriosam velit! Placeat commodi asperiores temporibus rem distinctio, unde iste. Modi eius dignissimos alias?
